@@ -12,7 +12,7 @@ namespace HackerRank
         public static void extraLongFactorials(int n)
         {
             if (n == 0) Console.WriteLine(0);
-
+            
             BigInteger total = new BigInteger(1);
             for (int i = n; 0 < i; i--)
             {
